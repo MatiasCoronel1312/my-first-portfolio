@@ -1,17 +1,18 @@
-import Footer from "./components/Footer"
+import Aside from "./components/Aside"
 import Portfolio from "./components/Portfolio"
 import Navbar from "./components/navbar"
 
 function App() {
  
-
   return (
-    <div className="flex justify-around flex-col">
-    <Navbar/>
-    <Portfolio/>
-    <Footer/>
-      
-    </div>
+    <>
+      <Navbar/>
+      <div className="flex">
+      <Aside/>
+      <Portfolio/>
+      </div>
+    </>
+   
   )
 }
 
