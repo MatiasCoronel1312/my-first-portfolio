@@ -16,6 +16,9 @@ body {
   background: linear-gradient(235deg, #55788B 0%, #BBDEF0 74.46%);
  
 }
+.navbar{
+  background: linear-gradient(235deg, #55788B 0%, #BBDEF0 74.46%);
+}
 .page {
   height: 100vh;
   
