@@ -84,24 +84,22 @@ const Portfolio = () => {
                     <img className="w-[100%] p-1" src={linkedin_logo} alt="linkedin" />
                   </a>
           </div>
-          
+          <h4>Email:</h4>
           <div>
-           <form action="https://formsubmit.co/elmati.08@hotmail.com" method="POST">
-              <h4>Email:</h4>
-              <div>
-                  <input type="text" name="nombre" placeholder="Nombre" required/>
+           <form className="rounded-lg flex flex-col justify-center " action="https://formsubmit.co/elmati.08@hotmail.com" method="POST">
+              
+              <div className="rounded-lg border-4 border-black mb-1">
+                  <input className="rounded-lg p-1 w-full" type="text" name="nombre" placeholder="Nombre" required/>
+              </div>
+              <div className="rounded-lg border-4 border-black mb-1">
+                  <input className="rounded-lg p-1 w-full" type="email" name="email" id="email" placeholder="Email" required/>
               </div>
               <div>
-                  <label htmlFor="email">Email:</label>
-                  <input type="email" name="email" id="email" placeholder="Ingresa tu correo" required/>
+                  <textarea className="rounded-lg border-4 border-black p-1 h-28 bg-[#BBDEF0]" name="consulta" cols="30" rows="8"></textarea>
               </div>
               <div>
-                  <textarea name="consulta" cols="30" rows="8"></textarea>
-
-              </div>
-              <div>
-                  <input className="border-2 border-black rounded-3xl px-3 font-semibold hover:bg-[#016262] cursor-pointer mx-1" type="submit" value="Enviar"/>
-                  <input className="border-2 border-black rounded-3xl px-3 font-semibold hover:bg-[#016262] cursor-pointer mx-1" type="reset" value="Reset"/>
+                  <input className="border-4 border-black rounded-xl px-3 font-semibold hover:bg-[#016262] cursor-pointer mx-1" type="submit" value="Enviar"/>
+                  <input className="border-4 border-black rounded-xl px-3 font-semibold hover:bg-[#016262] cursor-pointer mx-1" type="reset" value="Reset"/>
               </div>  
            </form>
           </div>
