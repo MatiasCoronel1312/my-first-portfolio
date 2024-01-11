@@ -79,10 +79,12 @@ const Portfolio = () => {
             <img className="w-[3%] md:w-[4%] lg:w-[5%] " src={jira} alt="jira"/>
           </div>
         </div>
-        <div id={1} className={`page  flex-col `}>
-         
-
+        <div id={1} className={`h-[100vh] w-full flex  justify-around `}>
           <h1 className="text-[#016262] text-3xl">Work</h1>
+          <div className="rounded-lg border-2 border-black w-[60%] h-[10rem] m-5"></div>
+          <div className="rounded-lg border-2 border-black w-[60%] h-[10rem] m-5"></div>
+          <div className="rounded-lg border-2 border-black w-[60%] h-[10rem] m-5"></div>
+          <div className="rounded-lg border-2 border-black w-[60%] h-[10rem] m-5"></div>
         </div>
 
         <div id={2} className={`h-[100vh] w-full `}>
