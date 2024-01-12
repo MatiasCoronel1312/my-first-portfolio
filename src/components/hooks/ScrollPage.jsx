@@ -5,6 +5,7 @@ export const handleScroll = (event) => {
   let deltaYRef = false;
   const currentScrollY = event.deltaY;
   if (currentScrollY > 0 && !deltaYRef) {
+    console.log(currentScrollY);
     ScrollPage("down");
     deltaYRef = true;
     setTimeout(() => {
