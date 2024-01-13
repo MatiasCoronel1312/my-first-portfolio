@@ -1,16 +1,13 @@
-import Aside from "./components/Aside"
-import Portfolio from "./components/Portfolio"
-import Navbar from "./components/navbar"
+import { BrowserRouter } from "react-router-dom"
+import AppRouter from "./router/AppRouter"
 
 function App() {
  
   return (
     <>
-      <Navbar/>
-      <div className="flex w-full h-[100%]">
-      <Aside/>
-      <Portfolio/>
-      </div>
+      <BrowserRouter>
+        <AppRouter/>
+      </BrowserRouter>
     </>
    
   )

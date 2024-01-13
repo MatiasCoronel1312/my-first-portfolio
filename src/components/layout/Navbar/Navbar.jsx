@@ -1,5 +1,5 @@
 import React from "react";
-import idioma from "../assets/idioma.png";
+import idioma from "../../../assets/idioma.png";
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
         <ul className="flex h-full justify-between items-center">
           <li className="px-1 py-1 text-[#0D1321] mx-1 flex  transform transition-all duration-300 hover:cursor-pointer">
             <img className="w-5 h-5 my-auto" src={idioma} alt="foto" />
-            En
+            En/Sp
           </li>
           <li className="px-5 py-1 text-[#0D1321] mx-1  transform transition-all duration-300 hover:cursor-pointer">
             Dark
